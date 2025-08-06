@@ -1,0 +1,39 @@
+{
+  "name": "laravel-desktop-notifications-dev",
+  "version": "1.0.0",
+  "description": "Development tools for Laravel Desktop Notifications",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "build": "cd electron-app && npm run build",
+    "start": "cd electron-app && npm start",
+    "dev": "cd electron-app && npm run dev",
+    "install-deps": "cd electron-app && npm install"
+  },
+  "keywords": [
+    "laravel",
+    "electron",
+    "notifications",
+    "desktop",
+    "development"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write"
+    ],
+    "*.{md,html}": [
+      "prettier --write"
+    ]
+  }
+} 

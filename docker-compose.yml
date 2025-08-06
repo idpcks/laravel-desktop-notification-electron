@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  laravel-desktop-notifications:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/vendor
+    environment:
+      - NODE_ENV=development
+      - PHP_ENV=development
+    command: npm run dev
+    restart: unless-stopped
+
+  # Optional: Add a Laravel test application
+  laravel-test:
+    image: php:8.1-fpm
+    volumes:
+      - ./test-laravel:/var/www/html
+    ports:
+      - "8000:80"
+    depends_on:
+      - laravel-desktop-notifications
+    environment:
+      - DESKTOP_NOTIFICATIONS_URL=http://laravel-desktop-notifications:3000 

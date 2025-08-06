@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+UPGRADING.md
+SECURITY.md
+CODE_OF_CONDUCT.md
+SUPPORT.md
+INSTALL.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env*
+
+# Test files
+tests/
+phpunit.xml
+
+# Development files
+install.php
+test-*.php
+test-*.html
+run-tests.*
+
+# Examples
+examples/
+
+# CI/CD
+.github/ 

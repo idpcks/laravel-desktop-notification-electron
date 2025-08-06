@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Generated files
+*.min.js
+*.min.css
+
+# Package files
+package-lock.json
+composer.lock
+
+# Documentation
+*.md
+
+# Configuration files
+*.json
+*.yml
+*.yaml
+
+# Electron app
+electron-app/node_modules/
+electron-app/dist/
+electron-app/build/ 
