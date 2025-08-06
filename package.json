@@ -1,5 +1,5 @@
 {
-  "name": "laravel-desktop-notifications-dev",
+  "name": "laravel-desktop-notification-electron-dev",
   "version": "1.0.0",
   "description": "Development tools for Laravel Desktop Notifications",
   "private": true,
@@ -17,7 +17,7 @@
     "desktop",
     "development"
   ],
-  "author": "Your Name",
+  "author": "idpcks",
   "license": "MIT",
   "devDependencies": {
     "husky": "^8.0.0",

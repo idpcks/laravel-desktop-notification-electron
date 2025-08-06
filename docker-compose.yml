@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  laravel-desktop-notifications:
+  laravel-desktop-notification-electron:
     build: .
     ports:
       - "3000:3000"
@@ -23,6 +23,6 @@ services:
     ports:
       - "8000:80"
     depends_on:
-      - laravel-desktop-notifications
+      - laravel-desktop-notification-electron
     environment:
-      - DESKTOP_NOTIFICATIONS_URL=http://laravel-desktop-notifications:3000 
+      - DESKTOP_NOTIFICATIONS_URL=http://laravel-desktop-notification-electron:3000 

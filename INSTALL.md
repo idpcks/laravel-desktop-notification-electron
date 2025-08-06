@@ -17,7 +17,7 @@ Before installing, make sure you have:
 ### Step 1: Install the Package
 
 ```bash
-composer require laravel-desktop-notifications/desktop-notifications
+composer require laravel-desktop-notification-electron/desktop-notifications
 ```
 
 ### Step 2: Run the Installer
@@ -53,7 +53,7 @@ If you prefer manual installation or need more control:
 ### 1. Install Package
 
 ```bash
-composer require laravel-desktop-notifications/desktop-notifications
+composer require laravel-desktop-notification-electron/desktop-notifications
 ```
 
 ### 2. Publish Assets
@@ -194,7 +194,7 @@ php artisan desktop-notifications:test --type=status
 
 - Check the [troubleshooting section](../README.md#troubleshooting)
 - Review the [support guide](SUPPORT.md)
-- Create a [GitHub issue](https://github.com/your-username/laravel-desktop-notifications/issues)
+- Create a [GitHub issue](https://github.com/idpcks/laravel-desktop-notification-electron/issues)
 
 ## 📚 Next Steps
 
@@ -208,7 +208,7 @@ php artisan desktop-notifications:test --type=status
 To update the package:
 
 ```bash
-composer update laravel-desktop-notifications/desktop-notifications
+composer update laravel-desktop-notification-electron/desktop-notifications
 php artisan desktop-notifications:install --force
 ```
 
@@ -218,7 +218,7 @@ To remove the package:
 
 ```bash
 # Remove package
-composer remove laravel-desktop-notifications/desktop-notifications
+composer remove laravel-desktop-notification-electron/desktop-notifications
 
 # Remove files (optional)
 rm -rf electron-app
@@ -227,4 +227,4 @@ rm config/desktop-notifications.php
 
 ---
 
-**Need help?** Check our [support guide](SUPPORT.md) or create a [GitHub issue](https://github.com/your-username/laravel-desktop-notifications/issues). 
+**Need help?** Check our [support guide](SUPPORT.md) or create a [GitHub issue](https://github.com/idpcks/laravel-desktop-notification-electron/issues). 

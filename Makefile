@@ -44,11 +44,11 @@ clean: ## Clean build artifacts
 
 docker-build: ## Build Docker image
 	@echo "Building Docker image..."
-	docker build -t laravel-desktop-notifications .
+	docker build -t laravel-desktop-notification-electron .
 
 docker-run: ## Run with Docker
 	@echo "Running with Docker..."
-	docker run -p 3000:3000 laravel-desktop-notifications
+	docker run -p 3000:3000 laravel-desktop-notification-electron
 
 docker-compose-up: ## Start with Docker Compose
 	@echo "Starting with Docker Compose..."

@@ -12,7 +12,7 @@ Thank you for using Laravel Desktop Notifications! This guide will help you get 
    - Check the [examples directory](examples/)
 
 2. **Search Existing Issues**
-   - Search [GitHub Issues](https://github.com/your-username/laravel-desktop-notifications/issues)
+   - Search [GitHub Issues](https://github.com/idpcks/laravel-desktop-notification-electron/issues)
    - Look for similar problems and solutions
 
 3. **Check Troubleshooting**
@@ -54,8 +54,8 @@ When asking for help, please provide:
 - **General Questions**: Create a new issue with the "question" label
 
 ### Community Support
-- **Discussions**: Use [GitHub Discussions](https://github.com/your-username/laravel-desktop-notifications/discussions)
-- **Stack Overflow**: Tag questions with `laravel-desktop-notifications`
+- **Discussions**: Use [GitHub Discussions](https://github.com/idpcks/laravel-desktop-notification-electron/discussions)
+- **Stack Overflow**: Tag questions with `laravel-desktop-notification-electron`
 
 ### Direct Contact
 - **Email**: support@example.com
@@ -112,8 +112,8 @@ php artisan cache:clear
 php artisan route:clear
 
 # Reinstall package
-composer remove laravel-desktop-notifications/desktop-notifications
-composer require laravel-desktop-notifications/desktop-notifications
+composer remove laravel-desktop-notification-electron/desktop-notifications
+composer require laravel-desktop-notification-electron/desktop-notifications
 php artisan desktop-notifications:install --force
 ```
 
@@ -150,7 +150,7 @@ php artisan desktop-notifications:test --type=success
 ## 📚 Additional Resources
 
 ### Documentation
-- [Official Documentation](https://github.com/your-username/laravel-desktop-notifications)
+- [Official Documentation](https://github.com/idpcks/laravel-desktop-notification-electron)
 - [API Reference](../README.md#api-endpoints)
 - [Configuration Options](../README.md#configuration)
 
@@ -160,8 +160,8 @@ php artisan desktop-notifications:test --type=success
 - [Quick Start Guide](examples/QUICK_START.md)
 
 ### Community
-- [GitHub Discussions](https://github.com/your-username/laravel-desktop-notifications/discussions)
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/laravel-desktop-notifications)
+- [GitHub Discussions](https://github.com/idpcks/laravel-desktop-notification-electron/discussions)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/laravel-desktop-notification-electron)
 
 ## 🤝 Contributing
 
@@ -186,4 +186,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Need immediate help?** Check our [FAQ](https://github.com/your-username/laravel-desktop-notifications/discussions/categories/faq) or create a [GitHub Issue](https://github.com/your-username/laravel-desktop-notifications/issues/new). 
+**Need immediate help?** Check our [FAQ](https://github.com/idpcks/laravel-desktop-notification-electron/discussions/categories/faq) or create a [GitHub Issue](https://github.com/idpcks/laravel-desktop-notification-electron/issues/new). 

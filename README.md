@@ -18,7 +18,7 @@ A Laravel package for displaying desktop notifications using Electron. This pack
 
 ```bash
 # Install the package
-composer require laravel-desktop-notifications/desktop-notifications
+composer require laravel-desktop-notification-electron/desktop-notifications
 
 # Run the installer
 php artisan desktop-notifications:install
@@ -35,7 +35,7 @@ If you prefer manual installation:
 
 ```bash
 # 1. Install the package
-composer require laravel-desktop-notifications/desktop-notifications
+composer require laravel-desktop-notification-electron/desktop-notifications
 
 # 2. Publish configuration and Electron app
 php artisan vendor:publish --provider="LaravelDesktopNotifications\DesktopNotificationServiceProvider"

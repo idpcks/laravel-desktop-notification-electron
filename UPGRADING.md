@@ -14,7 +14,7 @@ This guide will help you upgrade Laravel Desktop Notifications to newer versions
 
 1. **Update Package**
    ```bash
-   composer update laravel-desktop-notifications/desktop-notifications
+   composer update laravel-desktop-notification-electron/desktop-notifications
    ```
 
 2. **Update Service Provider Registration**
@@ -100,7 +100,7 @@ This guide will help you upgrade Laravel Desktop Notifications to newer versions
 
 1. **Update Dependencies**
    ```bash
-   composer update laravel-desktop-notifications/desktop-notifications
+   composer update laravel-desktop-notification-electron/desktop-notifications
    ```
 
 2. **Run Migration Commands**
@@ -209,7 +209,7 @@ If you need to rollback:
 
 2. **Downgrade Package**
    ```bash
-   composer require laravel-desktop-notifications/desktop-notifications:^0.9.0
+   composer require laravel-desktop-notification-electron/desktop-notifications:^0.9.0
    ```
 
 3. **Clear Caches**

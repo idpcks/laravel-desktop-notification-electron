@@ -16,8 +16,8 @@ Thank you for your interest in contributing to Laravel Desktop Notifications! Th
 
 1. **Fork and Clone**
    ```bash
-   git clone https://github.com/your-username/laravel-desktop-notifications.git
-   cd laravel-desktop-notifications
+   git clone https://github.com/idpcks/laravel-desktop-notification-electron.git
+   cd laravel-desktop-notification-electron
    ```
 
 2. **Install Dependencies**
@@ -38,7 +38,7 @@ Thank you for your interest in contributing to Laravel Desktop Notifications! Th
    cd test-laravel
    
    # Install this package locally
-   composer require ../laravel-desktop-notifications
+   composer require ../laravel-desktop-notification-electron
    ```
 
 ## 🧪 Testing
